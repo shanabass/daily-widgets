@@ -1,13 +1,104 @@
-
 {
   "title": "The Morning Brief",
-  "status": "setup",
-  "updated_at": null,
-  "headlines": [],
+  "status": "rss_ready",
+  "updated_at": "2026-11-20T21:46:53.188968+00:00",
+  "headlines": [
+    {
+      "title": "Valise nucléaire de Poutine : la mise en scène calculée du Kremlin",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20261120-valise-nucl%C3%A9aire-de-poutine-la-mise-en-sc%C3%A8ne-calcul%C3%A9e-du-kremlin",
+      "published_at": "2026-11-20T21:31:51+00:00"
+    },
+    {
+      "title": "Johann Chapoutot : \"la dédiabolisation du RN est véritablement un mythe\"",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/%C3%A9missions/au-c%C5%93ur-de-l-info-l-invit%C3%A9/20261120-johann-chapoutot-la-d%C3%A9diabolisation-du-rn-est-v%C3%A9ritablement-un-mythe",
+      "published_at": "2026-11-20T20:58:03+00:00"
+    },
+    {
+      "title": "Trump threatens ban on US firms building AI data centres overseas",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T20:54:12+00:00"
+    },
+    {
+      "title": "Ligue des nations : la France de Zinedine Zidane face à la montagne espagnole",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/%C3%A9missions/caf%C3%A9-des-sports/20261120-ligue-nations-france-zinedine-zidane-face-montagne-espagnole",
+      "published_at": "2026-11-20T20:48:42+00:00"
+    },
+    {
+      "title": "Sommet de Shenzhen, guerre en Ukraine, hostilités dans le Golfe",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/%C3%A9missions/une-semaine-dans-le-monde/20261120-sommet-de-shenzhen-guerre-en-ukraine-hostilit%C3%A9s-dans-le-golfe",
+      "published_at": "2026-11-20T20:24:04+00:00"
+    },
+    {
+      "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T20:00:53+00:00"
+    },
+    {
+      "title": "Gérard Depardieu and French author investigated over sexual allegations",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c9ly43pj10mvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T19:45:20+00:00"
+    },
+    {
+      "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T19:27:49+00:00"
+    },
+    {
+      "title": "White House removes cyber-security chief after series of tech outages",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T19:03:56+00:00"
+    },
+    {
+      "title": "Police : la loi sur la présomption de légitime défense définitivement adoptée par le Parlement",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/france/20261120-police-la-loi-sur-la-pr%C3%A9somption-de-l%C3%A9gitime-d%C3%A9fense-d%C3%A9finitivement-adopt%C3%A9e-par-le-parlement",
+      "published_at": "2026-11-20T19:02:24+00:00"
+    },
+    {
+      "title": "Sans Starlink, l'Ukraine à l'assaut du pont de Crimée avec des drones relais",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/europe/20261120-sans-starlink-ukraine-assaut-pont-crim%C3%A9e-avec-drones-relais",
+      "published_at": "2026-11-20T18:01:38+00:00"
+    },
+    {
+      "title": "Camille Lellouche, 360 degrés de talents",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/%C3%A9missions/l%C3%A9gendes-urbaines/20261120-camille-lellouche-360-degr%C3%A9s-de-talents",
+      "published_at": "2026-11-20T18:00:23+00:00"
+    },
+    {
+      "title": "États-Unis : l'hippopotame star du zoo de Cincinnati est morte",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261120-%C3%A9tats-unis-l-hippopotame-star-du-zoo-de-cincinnati-est-morte",
+      "published_at": "2026-11-20T17:50:19+00:00"
+    },
+    {
+      "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T17:49:48+00:00"
+    },
+    {
+      "title": "Boom de l'intelligence artificielle : la révolution à quel prix ?",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/%C3%A9missions/la-semaine-de-l-%C3%A9co/20261120-boom-de-l-intelligence-artificielle-la-r%C3%A9volution-%C3%A0-quel-prix",
+      "published_at": "2026-11-20T17:37:58+00:00"
+    }
+  ],
   "quiz": [],
   "debrief": "",
   "concept": {
     "title": "",
     "explanation": ""
-  }
+  },
+  "feed_errors": []
 }
