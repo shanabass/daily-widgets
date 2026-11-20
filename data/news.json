@@ -109,11 +109,73 @@
       "summary": "Fiona, l’hippopotame star du zoo de Cincinnati dans l’Ohio (États-Unis), est morte le 19 novembre après avoir mangé un bonnet accidentellement tombé dans son enclos. La femelle âgé de 9 ans n’a pas survécu malgré les soins prodigués par les équipes vétérinaires."
     }
   ],
-  "quiz": [],
+  "quiz": [
+    {
+      "question": "\"Lift Your Spirit\" is an album by which artist?",
+      "options": [
+        "Aloe Blacc",
+        "Stevie Wonder",
+        "Taylor Swift",
+        "Lena Meyer-Landrut"
+      ],
+      "answer": "Aloe Blacc",
+      "category": "Entertainment: Music",
+      "explanation": "Correct answer: Aloe Blacc"
+    },
+    {
+      "question": "In which Shakespearean play will you find the suicide of Ophelia?",
+      "options": [
+        "Hamlet",
+        "Macbeth",
+        "King Lear",
+        "Othello"
+      ],
+      "answer": "Hamlet",
+      "category": "Entertainment: Musicals & Theatres",
+      "explanation": "Correct answer: Hamlet"
+    },
+    {
+      "question": "What is the stage name of English female rapper Mathangi Arulpragasam, who is known for the song \"Paper Planes\"?",
+      "options": [
+        "A.I.A.",
+        "M.I.A.",
+        "K.I.A.",
+        "C.I.A."
+      ],
+      "answer": "M.I.A.",
+      "category": "Entertainment: Music",
+      "explanation": "Correct answer: M.I.A."
+    },
+    {
+      "question": "How many sides does a trapezium have?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": "4",
+      "category": "Science: Mathematics",
+      "explanation": "Correct answer: 4"
+    },
+    {
+      "question": "This field is sometimes known as “The Dismal Science.”",
+      "options": [
+        "Philosophy",
+        "Physics",
+        "Economics",
+        "Politics"
+      ],
+      "answer": "Economics",
+      "category": "General Knowledge",
+      "explanation": "Correct answer: Economics"
+    }
+  ],
   "debrief": "",
   "concept": {
     "title": "",
     "explanation": ""
   },
-  "feed_errors": []
+  "feed_errors": [],
+  "quiz_updated_at": "2026-11-20T22:55:44.563065+00:00"
 }
