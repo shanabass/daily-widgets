@@ -2,22 +2,28 @@
 import json
 import pathlib
 import urllib.request
+import urllib.error
 import html
 import random
 import datetime
+import time
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "news.json"
 
 API_URL = (
     "https://opentdb.com/api.php"
-    "?amount=5&type=multiple&encode=default"
+    "?amount=5&type=multiple"
 )
+
 
 def get_questions():
     request = urllib.request.Request(
         API_URL,
-        headers={"User-Agent": "DailyWidgets/1.0"}
+        headers={
+            "User-Agent": "DailyWidgets/1.0",
+            "Accept": "application/json"
+        }
     )
 
     with urllib.request.urlopen(
@@ -25,14 +31,23 @@ def get_questions():
     ) as response:
         payload = json.load(response)
 
-    if payload.get("response_code") != 0:
+    code = payload.get("response_code")
+
+    if code != 0:
         raise RuntimeError(
-            "Trivia API returned no questions"
+            f"Trivia API error code: {code}"
+        )
+
+    results = payload.get("results", [])
+
+    if len(results) != 5:
+        raise RuntimeError(
+            f"Expected 5 questions, got {len(results)}"
         )
 
     questions = []
 
-    for item in payload["results"]:
+    for item in results:
         correct = html.unescape(
             item["correct_answer"]
         )
@@ -41,6 +56,7 @@ def get_questions():
             html.unescape(answer)
             for answer in item["incorrect_answers"]
         ]
+
         answers.append(correct)
         random.shuffle(answers)
 
@@ -60,12 +76,35 @@ def get_questions():
 
     return questions
 
+
+def get_questions_with_retry():
+    for attempt in range(1, 4):
+        try:
+            print(
+                f"Fetching quiz: attempt {attempt}/3"
+            )
+            return get_questions()
+
+        except Exception as error:
+            print(
+                f"Attempt {attempt} failed: {error}"
+            )
+
+            if attempt == 3:
+                raise
+
+            time.sleep(15)
+
+
 def main():
     data = json.loads(
         DATA_FILE.read_text(encoding="utf-8")
     )
 
-    data["quiz"] = get_questions()
+    questions = get_questions_with_retry()
+
+    data["quiz"] = questions
+
     data["quiz_updated_at"] = (
         datetime.datetime.now(
             datetime.timezone.utc
@@ -81,7 +120,8 @@ def main():
         encoding="utf-8"
     )
 
-    print("Saved 5 quiz questions")
+    print("Successfully saved 5 quiz questions")
+
 
 if __name__ == "__main__":
     main()
