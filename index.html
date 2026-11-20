@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Morning Brief</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#0b1628;color:#fff;
+ font-family:-apple-system,BlinkMacSystemFont,Arial,sans-serif;
+ line-height:1.5
+}
+main{max-width:650px;margin:auto;padding:24px 18px 60px}
+h1{font-size:29px;margin:8px 0}
+h2{font-size:21px;margin-top:32px}
+p{color:#cbd5e1}
+.eyebrow{color:#80ded2;font-size:12px;letter-spacing:2px}
+.date{color:#a7b7ce;font-size:13px}
+.card{
+ background:#16253b;border:1px solid #293b55;
+ border-radius:16px;padding:17px;margin:13px 0
+}
+.source{color:#80ded2;font-size:12px}
+.card h3{font-size:17px;margin:9px 0}
+.card p{font-size:14px;margin:8px 0}
+a{color:#80ded2;font-size:13px}
+button{
+ background:#80ded2;color:#102032;border:0;
+ padding:12px 16px;border-radius:10px;
+ font-weight:700;font-size:14px;cursor:pointer
+}
+button.secondary{background:#263c57;color:#fff}
+button:disabled{opacity:.55}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+.option{
+ display:block;width:100%;margin:8px 0;text-align:left;
+ background:#263c57;color:#fff;font-weight:400
+}
+.option.correct{background:#216a56}
+.option.wrong{background:#773d45}
+.feedback{font-size:13px;margin-top:10px}
+.small{font-size:12px;color:#9fb1c8}
+</style>
+</head>
+<body>
+<main>
+<div class="eyebrow">YOUR DAILY WORLD UPDATE</div>
+<h1>🌍 The Morning Brief</h1>
+<div class="date" id="date"></div>
+<p>L'essentiel de l'actualité mondiale, à lire ou à écouter.</p>
+
+<div class="actions">
+<button onclick="speakBrief()">🎧 Écouter le briefing</button>
+<button class="secondary" onclick="stopBrief()">Arrêter</button>
+</div>
+
+<h2>📰 À la une</h2>
+<div id="news">Chargement des actualités...</div>
+
+<h2>🧠 Le quiz du jour</h2>
+<p>5 questions pour vérifier ce que tu as retenu des titres.</p>
+<div id="quiz">Chargement du quiz...</div>
+
+<p class="small" id="updated"></p>
+</main>
+
+<script>
+const DATA_URL =
+ "https://raw.githubusercontent.com/shanabass/daily-widgets/main/data/news.json";
+
+let headlines = [];
+let questions = [];
+let score = 0;
+let answered = 0;
+
+const escapeHTML = s => String(s ?? "")
+ .replaceAll("&","&amp;")
+ .replaceAll("<","&lt;")
+ .replaceAll(">","&gt;")
+ .replaceAll('"',"&quot;")
+ .replaceAll("'","&#39;");
+
+document.getElementById("date").textContent =
+ new Date().toLocaleDateString("fr-FR",{
+  weekday:"long",day:"numeric",month:"long",year:"numeric"
+ });
+
+async function loadNews(){
+ try{
+  const response = await fetch(DATA_URL + "?t=" + Date.now());
+  if(!response.ok) throw new Error("HTTP " + response.status);
+  const data = await response.json();
+  headlines = (data.headlines || []).filter(x => x.title);
+
+  if(!headlines.length) throw new Error("Aucune actualité disponible");
+
+  document.getElementById("news").innerHTML =
+   headlines.slice(0,10).map((item,i)=>`
+    <article class="card">
+     <div class="source">${escapeHTML(item.source || "Actualité")} · ${i+1}</div>
+     <h3>${escapeHTML(item.title)}</h3>
+     <p>${escapeHTML(item.summary || item.description || "Description indisponible.")}</p>
+     ${item.url ? `<a href="${escapeHTML(item.url)}" target="_blank" rel="noopener noreferrer">Consulter la source</a>` : ""}
+    </article>
+   `).join("");
+
+  if(data.updated_at){
+   document.getElementById("updated").textContent =
+    "Dernière collecte : " +
+    new Date(data.updated_at).toLocaleString("fr-FR");
+  }
+
+  createQuiz();
+ }catch(error){
+  document.getElementById("news").textContent =
+   "Impossible de charger les actualités : " + error.message;
+  document.getElementById("quiz").textContent =
+   "Le quiz sera disponible lorsque les actualités seront chargées.";
+ }
+}
+
+function createQuiz(){
+ const pool = headlines.filter(x=>x.title && x.source);
+ const unique = [];
+ const seen = new Set();
+
+ for(const item of pool){
+  if(!seen.has(item.title)){
+   seen.add(item.title);
+   unique.push(item);
+  }
+ }
+
+ if(unique.length < 4){
+  document.getElementById("quiz").textContent =
+   "Pas assez de titres pour préparer 5 questions.";
+  return;
+ }
+
+ // Questions de reconnaissance des titres.
+ // Les bonnes réponses sont prises directement dans le flux.
+ const selected = unique.slice(0,5);
+ questions = selected.map((item,i)=>{
+  const wrong = unique
+   .filter(x=>x.title !== item.title)
+   .slice(i+1)
+   .concat(unique.filter(x=>x.title !== item.title).slice(0,i+1))
+   .slice(0,3);
+
+  const options = [item,...wrong]
+   .sort((a,b)=>a.title.localeCompare(b.title));
+
+  return {
+   prompt:"Quel titre figure dans le briefing du média " +
+    item.source + " ?",
+   // Plusieurs titres d'un même média peuvent être présents.
+   // On demande donc de reconnaître le titre précis.
+   correct:item.title,
+   options:options.map(x=>x.title),
+   explanation:"Ce titre apparaît dans la collecte de " +
+    item.source + "."
+  };
+ });
+
+ // Pour éviter toute ambiguïté, afficher une question
+ // de reconnaissance du titre numéroté.
+ questions.forEach((q,i)=>{
+  q.prompt="Quel est le titre de l'actualité n°" + (i+1) +
+   " présentée dans ce briefing ?";
+  q.explanation="Retrouve l'actualité n°" + (i+1) +
+   " dans la liste ci-dessus.";
+ });
+
+ score=0;
+ answered=0;
+
+ document.getElementById("quiz").innerHTML =
+  questions.map((q,i)=>`
+   <div class="card" id="question-${i}">
+    <strong>${i+1}. ${escapeHTML(q.prompt)}</strong>
+    <div id="options-${i}">
+     ${q.options.map((option,j)=>`
+      <button class="option" data-q="${i}" data-o="${j}">
+       ${escapeHTML(option)}
+      </button>
+     `).join("")}
+    </div>
+    <div class="feedback" id="feedback-${i}"></div>
+   </div>
+  `).join("") +
+  '<div class="card" id="result">Réponds aux 5 questions pour découvrir ton score.</div>';
+
+ document.querySelectorAll(".option").forEach(button=>{
+  button.addEventListener("click",()=>{
+   answerQuestion(
+    Number(button.dataset.q),
+    Number(button.dataset.o)
+   );
+  });
+ });
+}
+
+function answerQuestion(i,j){
+ const q=questions[i];
+ const chosen=q.options[j];
+ const container=document.getElementById("options-"+i);
+ const buttons=container.querySelectorAll("button");
+
+ if([...buttons].every(b=>b.disabled)) return;
+
+ const correct=chosen===q.correct;
+ if(correct) score++;
+ answered++;
+
+ buttons.forEach((button,index)=>{
+  button.disabled=true;
+  if(q.options[index]===q.correct)
+   button.classList.add("correct");
+  else if(index===j)
+   button.classList.add("wrong");
+ });
+
+ document.getElementById("feedback-"+i).textContent =
+  (correct ? "✅ Bonne réponse. " : "❌ Bonne réponse : " + q.correct + ". ") +
+  q.explanation;
+
+ if(answered===questions.length){
+  document.getElementById("result").innerHTML =
+   "<strong>Ton score : "+score+"/"+questions.length+"</strong>" +
+   "<p>Le quiz teste pour l'instant la mémorisation des titres. " +
+   "Un quiz de compréhension sera ajouté ensuite.</p>";
+ }
+}
+
+function speakBrief(){
+ if(!("speechSynthesis" in window)){
+  alert("La lecture vocale n'est pas disponible sur ce navigateur.");
+  return;
+ }
+ if(!headlines.length){
+  alert("Le briefing n'est pas encore chargé.");
+  return;
+ }
+
+ stopBrief();
+
+ const script=headlines.slice(0,8).map((item,i)=>
+  "Actualité "+(i+1)+". "+item.title+". "+
+  (item.summary || item.description || "")
+ ).join(". ");
+
+ const utterance=new SpeechSynthesisUtterance(
+  "Bonjour ! Voici The Morning Brief. " + script
+ );
+ utterance.lang="fr-FR";
+ utterance.rate=0.9;
+ window.speechSynthesis.speak(utterance);
+}
+
+function stopBrief(){
+ if("speechSynthesis" in window)
+  window.speechSynthesis.cancel();
+}
+
+loadNews();
+</script>
+</body>
+</html>
