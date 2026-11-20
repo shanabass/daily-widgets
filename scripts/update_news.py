@@ -97,13 +97,40 @@ def main():
             seen.add(item["url"])
             unique.append(item)
 
+    previous = {}
+
+    target = ROOT / "data" / "news.json"
+
+    if target.exists():
+        try:
+            previous = json.loads(
+                target.read_text(encoding="utf-8")
+            )
+        except (json.JSONDecodeError, OSError):
+            previous = {}
+
+    previous = {}
+
+    target = ROOT / "data" / "news.json"
+
+    if target.exists():
+        try:
+            previous = json.loads(
+                target.read_text(encoding="utf-8")
+            )
+        except (json.JSONDecodeError, OSError):
+            previous = {}
+
     output = {
         "title": "The Morning Brief",
         "status": "rss_ready",
         "updated_at": now.isoformat(),
         "headlines": unique[:15],
-        "quiz": [],
-        "debrief": "",
+        "quiz": previous.get("quiz", []),
+
+"quiz_updated_at": previous.get("quiz_updated_at"),
+
+"debrief": previous.get("debrief", ""),
         "concept": {
             "title": "",
             "explanation": ""
