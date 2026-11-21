@@ -111,64 +111,64 @@
   ],
   "quiz": [
     {
-      "question": "\"Lift Your Spirit\" is an album by which artist?",
+      "question": "Macintosh has named six of its operating systems after big cats. What big cat did Macintosh name their 2007 release after? ",
       "options": [
-        "Aloe Blacc",
-        "Stevie Wonder",
-        "Taylor Swift",
-        "Lena Meyer-Landrut"
+        "Panther",
+        "Leopard",
+        "Tiger",
+        "Puma"
       ],
-      "answer": "Aloe Blacc",
-      "category": "Entertainment: Music",
-      "explanation": "Correct answer: Aloe Blacc"
-    },
-    {
-      "question": "In which Shakespearean play will you find the suicide of Ophelia?",
-      "options": [
-        "Hamlet",
-        "Macbeth",
-        "King Lear",
-        "Othello"
-      ],
-      "answer": "Hamlet",
-      "category": "Entertainment: Musicals & Theatres",
-      "explanation": "Correct answer: Hamlet"
-    },
-    {
-      "question": "What is the stage name of English female rapper Mathangi Arulpragasam, who is known for the song \"Paper Planes\"?",
-      "options": [
-        "A.I.A.",
-        "M.I.A.",
-        "K.I.A.",
-        "C.I.A."
-      ],
-      "answer": "M.I.A.",
-      "category": "Entertainment: Music",
-      "explanation": "Correct answer: M.I.A."
-    },
-    {
-      "question": "How many sides does a trapezium have?",
-      "options": [
-        "4",
-        "3",
-        "5",
-        "6"
-      ],
-      "answer": "4",
-      "category": "Science: Mathematics",
-      "explanation": "Correct answer: 4"
-    },
-    {
-      "question": "This field is sometimes known as “The Dismal Science.”",
-      "options": [
-        "Philosophy",
-        "Physics",
-        "Economics",
-        "Politics"
-      ],
-      "answer": "Economics",
+      "answer": "Leopard",
       "category": "General Knowledge",
-      "explanation": "Correct answer: Economics"
+      "explanation": "Correct answer: Leopard"
+    },
+    {
+      "question": "Which river flows through the Scottish city of Glasgow?",
+      "options": [
+        "Dee",
+        "Tay",
+        "Clyde",
+        "Tweed"
+      ],
+      "answer": "Clyde",
+      "category": "General Knowledge",
+      "explanation": "Correct answer: Clyde"
+    },
+    {
+      "question": "What is the first book of the Old Testament?",
+      "options": [
+        "Leviticus",
+        "Numbers",
+        "Exodus",
+        "Genesis"
+      ],
+      "answer": "Genesis",
+      "category": "General Knowledge",
+      "explanation": "Correct answer: Genesis"
+    },
+    {
+      "question": "Which King of England was faced with the Peasants' Revolt in 1381?",
+      "options": [
+        "Edward III",
+        "Henry IV",
+        "Edward II",
+        "Richard II"
+      ],
+      "answer": "Richard II",
+      "category": "History",
+      "explanation": "Correct answer: Richard II"
+    },
+    {
+      "question": "What year was Weezer's album \"Pinkerton\" released? ",
+      "options": [
+        "1994",
+        "2001",
+        "1990",
+        "1996"
+      ],
+      "answer": "1996",
+      "category": "Entertainment: Music",
+      "explanation": "Correct answer: 1996"
     }
   ],
   "debrief": "",
@@ -177,5 +177,5 @@
     "explanation": ""
   },
   "feed_errors": [],
-  "quiz_updated_at": "2026-11-20T22:55:44.563065+00:00"
+  "quiz_updated_at": "2026-11-21T05:08:11.629164+00:00"
 }
