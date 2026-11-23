@@ -111,67 +111,67 @@
   ],
   "quiz": [
     {
-      "question": "Macintosh has named six of its operating systems after big cats. What big cat did Macintosh name their 2007 release after? ",
+      "question": "When Halo 3: ODST was unveiled in 2008, it had a different title. What was the game formally called?",
       "options": [
-        "Panther",
-        "Leopard",
-        "Tiger",
-        "Puma"
+        "Halo 3: Guerilla",
+        "Halo 3: Recon",
+        "Halo 3: Phantom",
+        "Halo 3: Helljumpers"
       ],
-      "answer": "Leopard",
-      "category": "General Knowledge",
-      "explanation": "Correct answer: Leopard"
+      "answer": "Halo 3: Recon",
+      "category": "Entertainment: Video Games",
+      "explanation": "Correct answer: Halo 3: Recon"
     },
     {
-      "question": "Which river flows through the Scottish city of Glasgow?",
+      "question": "Which song on Daft Punk's \"Random Access Memories\" features Pharrell Williams?",
       "options": [
-        "Dee",
-        "Tay",
-        "Clyde",
-        "Tweed"
+        "Get Lucky",
+        "The Game of Love",
+        "Instant Crush",
+        "Doin' It Right"
       ],
-      "answer": "Clyde",
-      "category": "General Knowledge",
-      "explanation": "Correct answer: Clyde"
-    },
-    {
-      "question": "What is the first book of the Old Testament?",
-      "options": [
-        "Leviticus",
-        "Numbers",
-        "Exodus",
-        "Genesis"
-      ],
-      "answer": "Genesis",
-      "category": "General Knowledge",
-      "explanation": "Correct answer: Genesis"
-    },
-    {
-      "question": "Which King of England was faced with the Peasants' Revolt in 1381?",
-      "options": [
-        "Edward III",
-        "Henry IV",
-        "Edward II",
-        "Richard II"
-      ],
-      "answer": "Richard II",
-      "category": "History",
-      "explanation": "Correct answer: Richard II"
-    },
-    {
-      "question": "What year was Weezer's album \"Pinkerton\" released? ",
-      "options": [
-        "1994",
-        "2001",
-        "1990",
-        "1996"
-      ],
-      "answer": "1996",
+      "answer": "Get Lucky",
       "category": "Entertainment: Music",
-      "explanation": "Correct answer: 1996"
+      "explanation": "Correct answer: Get Lucky"
+    },
+    {
+      "question": "In the \"Dragon Ball\" franchise, what is the name of Goku's brother?",
+      "options": [
+        "Bardock",
+        "Vegeta",
+        "Gohan",
+        "Raditz"
+      ],
+      "answer": "Raditz",
+      "category": "Entertainment: Japanese Anime & Manga",
+      "explanation": "Correct answer: Raditz"
+    },
+    {
+      "question": "Which of these was an official candidate in the 2017 British General Election?",
+      "options": [
+        "Sir Crumpetsby",
+        "James Francis",
+        "Robert Wimbledon",
+        "Lord Buckethead"
+      ],
+      "answer": "Lord Buckethead",
+      "category": "Politics",
+      "explanation": "Correct answer: Lord Buckethead"
+    },
+    {
+      "question": "Who wrote and directed the 1986 film 'Platoon'?",
+      "options": [
+        "Oliver Stone",
+        "Stanley Kubrick",
+        "Francis Ford Coppola",
+        "Michael Cimino"
+      ],
+      "answer": "Oliver Stone",
+      "category": "Entertainment: Film",
+      "explanation": "Correct answer: Oliver Stone"
     }
   ],
-  "quiz_updated_at": "2026-11-21T05:08:11.629164+00:00",
+  "quiz_updated_at": "2026-11-23T05:30:57.748727+00:00",
   "debrief": "",
   "concept": {
     "title": "",
