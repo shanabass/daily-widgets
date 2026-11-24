@@ -1,112 +1,112 @@
 {
   "title": "The Morning Brief",
   "status": "rss_ready",
-  "updated_at": "2026-11-23T05:22:22.786539+00:00",
+  "updated_at": "2026-11-24T05:11:59.350818+00:00",
   "headlines": [
     {
-      "title": "Israël : les partis d'Eisenkot et de Netanyahu achèvent leurs discussions sans parvenir à un accord",
-      "source": "France 24",
-      "url": "https://www.france24.com/fr/moyen-orient/20261123-israel-partis-gadi-eisenkot-benjamin-netanyahu-achevent-discussions-sans-parvenir-accord-likoud-coalition",
-      "published_at": "2026-11-23T05:19:28+00:00",
-      "summary": "Une semaine après une première rencontre, les partis de Benjamin Netanyahu (Likoud) et de Gadi Eisenkot (Yashar) ont conclu dimanche de nouveaux pourparlers en Israël. Ils ne sont pas parvenus à trouver un accord sur une éventuelle coalition. Une nouvelle réunion a été annoncée."
-    },
-    {
-      "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
+      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T05:15:06+00:00",
-      "summary": "The prime minister Australia, which co-hosted COP31, attributed the failure to \"difficult geopolitical times\"."
+      "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-24T04:36:31+00:00",
+      "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value."
     },
     {
-      "title": "Turquie : la COP31 se termine, sans accord",
+      "title": "En direct : Tripoli veut des explications après les attaques contre des navires russes à Benghazi",
       "source": "France 24",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261123-turquie-la-cop31-se-termine-sans-accord",
-      "published_at": "2026-11-23T04:48:32+00:00",
-      "summary": "Malgré deux semaines de négociations, aucun consensus n'a pu être trouvé au terme de la COP31 à Antalya. L'UE a refusé un projet de décision finale omettant les énergies fossiles. \"Nous n'approuverons pas une décision (...) ne mentionnant même pas les combustibles fossiles, qui sont le principal moteur du changement climatique\", a annoncé le minist"
+      "url": "https://www.france24.com/fr/europe/20261124-en-direct-ukraine-russie-libye-attaques-benghazi-zelensky-poutine",
+      "published_at": "2026-11-24T04:00:56+00:00",
+      "summary": "Le gouvernement libyen d'union nationale, basé à Tripoli, a réclamé lundi des explications à Kiev après des attaques contre des navires russes près de Benghazi, tandis que l'exécutif rival de l'Est a demandé une enquête internationale sur une présumée présence militaire ukrainienne en Libye. Suivez notre direct."
     },
     {
-      "title": "Double attaque contre des bateaux au large de la Libye",
+      "title": "Au Yémen, les Houthis déplorent 25 morts ou disparus dans des frappes saoudiennes",
       "source": "France 24",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261123-double-attaque-contre-des-bateaux-au-large-de-la-libye",
-      "published_at": "2026-11-23T04:44:50+00:00",
-      "summary": "Sur des images publiées sur les réseaux sociaux, on peut apercevoir une corvette russe en feu. Plus tard, un navire marchand, dont le pavillon n'a pas été précisé, a été pris pour cible au large de la ville de Benghazi. Après ces deux attaques de navire, l'État major de la marine a voulu rassurer le peuple libyen, rappelant disposer des moyens néce"
+      "url": "https://www.france24.com/fr/moyen-orient/20261124-yemen-houthis-deplorent-25-morts-disparus-frappes-saoudiennes",
+      "published_at": "2026-11-24T03:30:10+00:00",
+      "summary": "Une agence de presse houthie fait état mardi de 25 morts ou disparus après des frappes aériennes de l'Arabie saoudite contre des autocars et des camions dans le sud du Yémen. Cette attaque fait suite à des bombardements dans la province côtière voisine de Hodeïda, contrôlée par les Houthis, qui ont fait au moins 17 morts."
     },
     {
-      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T04:44:00+00:00",
-      "summary": "Ten people are dead in the attack on Dymer, with rescue efforts ongoing to find those still missing from the residential building."
+      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-24T02:15:59+00:00",
+      "summary": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks."
     },
     {
-      "title": "Mali : Amnesty va lancer une campagne pour exiger la libération de l'influenceuse Rokiatou Doumbia",
-      "source": "France 24",
-      "url": "https://www.france24.com/fr/afrique/20261123-amnesty-international-lance-campagne-liberation-influenceuse-rokiatou-doumbia-mali-junte-prison-association-malfaiteurs",
-      "published_at": "2026-11-23T04:05:23+00:00",
-      "summary": "Amnesty se mobilise pour l'influenceuse Rokiatou Doumbia, alias \"Rose, la vie chère\", en lançant la campagne Écrire pour les droits pour réclamer sa libération dès le 10 décembre. Voix critique de la junte, elle a été condamnée en août dernier à 10 ans de prison, dont trois avec sursis, pour \"association de malfaiteurs\" et \"atteinte au crédit de l'"
+      "title": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-24T00:23:25+00:00",
+      "summary": "The promoter and broadcaster helped define the music tastes of Australians for decades."
     },
     {
-      "title": "Pip assessments need 'fundamental overhaul', report to say",
+      "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T04:01:13+00:00",
-      "summary": "Disability minister Sir Stephen Timms says he will recommend major reforms to the personal independence payment."
+      "url": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-24T00:01:04+00:00",
+      "summary": "Busy mothers on both sides of the Atlantic are paying companies to handle their to-do lists."
     },
     {
-      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T02:59:35+00:00",
-      "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia."
+      "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-23T23:16:08+00:00",
+      "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public."
     },
     {
-      "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T01:23:43+00:00",
-      "summary": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats."
-    },
-    {
-      "title": "Energy bills will soar - here's how you can ease the pain",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T01:05:07+00:00",
-      "summary": "Household energy bills are about to increase but there are ways to keep a lid on your expenditure."
-    },
-    {
-      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T00:33:36+00:00",
-      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\"."
-    },
-    {
-      "title": "What is going on with Poundland?",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T00:22:27+00:00",
-      "summary": "Poundland has a matter of days to find a buyer or face collapsing into administration. Why?"
-    },
-    {
-      "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T00:08:00+00:00",
-      "summary": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated."
-    },
-    {
-      "title": "Présidentielle 2027 : \"La dynamique de vote utile s'exprime de manière très anticipée\"",
+      "title": "Megaspeed, société singapourienne au cœur du scandale Nvidia, placée sur liste noire américaine",
       "source": "France 24",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261122-pr%C3%A9sidentielle-2027-la-dynamique-de-vote-utile-s-exprime-de-mani%C3%A8re-tr%C3%A8s-anticip%C3%A9e",
-      "published_at": "2026-11-22T22:54:49+00:00",
-      "summary": "Au menu de Présidentielle 2027 : Jean-Luc Mélenchon continue de rallier à gauche, Dominique de Villepin et David Lisnard bousculent le jeu à droite, et le RN fragilisé par les affaires. Avec Frédéric Micheau, Directeur général adjoint de l'institut de sondages OpinionWay, et Richard Werly, éditorialiste politique et journaliste pour le media suisse"
+      "url": "https://www.france24.com/fr/%C3%A9co-tech/20261123-megaspeed-societe-singapour-scandale-nvidia-placee-liste-noire-etats-unis-chine",
+      "published_at": "2026-11-23T22:56:06+00:00",
+      "summary": "Le ministère du Commerce américain a décidé lundi de placer sur liste noire la société singapourienne Megaspeed et ses filiales, suspectées d'avoir contourné l'embargo des États-Unis en fournissant des puces Nvidia à la Chine."
     },
     {
-      "title": "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
+      "title": "Le chef de l'ONU espère voir d'ici un an un mécanisme pour limiter les risques posés par l'IA",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/%C3%A9co-tech/20261123-intelligence-artificielle-chef-onu-guterres-espere-voir-d-ici-un-an-mecanisme-pour-limiter-risques-ia",
+      "published_at": "2026-11-23T22:42:46+00:00",
+      "summary": "Antonio Guterres a appelé lundi les États membres des Nations unies à élaborer, \"d'ici l'année prochaine, un cadre multilatéral de gestion des risques liés à l'IA\". Pour le chef de l'ONU, la première étape pourrait être de convenir de mesures de sécurité communes, d'un système d'évaluation et d'exigences minimales en matière de contrôle indépendant"
+    },
+    {
+      "title": "Génocide des Rohingya en Birmanie : 14 pays reconnaissent la décision de la CIJ",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/asie-pacifique/20261123-birmanie-genocide-rohingya-14-pays-reconnaissent-decision-cij",
+      "published_at": "2026-11-23T22:31:48+00:00",
+      "summary": "Le Royaume-Uni, l'Espagne, le Canada, l'Australie et dix autres pays ont affirmé lundi reconnaître la décision de la Cour internationale de justice, qui a reconnu la semaine dernière le génocide commis par la Birmanie contre les Rohingya. Ils exhortent la Birmanie à se \"conformer pleinement à ses obligations en vertu du droit international, y compr"
+    },
+    {
+      "title": "RD Congo : une messe interdite, tensions entre l'Eglise et les autorités",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261123-rd-congo-une-messe-interdite-tensions-entre-l-eglise-et-les-autorit%C3%A9s",
+      "published_at": "2026-11-23T21:44:25+00:00",
+      "summary": "L'Eglise catholique est-elle dans le viseur des autorités congolaises ? Ces derniers jours elles ont empêché deux évènements : une marche à Lubumbashi et une messe à Kinshasa. Dans le même temps en République démocratique du Congo, on attend toujours la nomination du comité d'organisation du dialogue national. Les précisions de notre correspondante"
+    },
+    {
+      "title": "Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-22T22:49:10+00:00",
-      "summary": "The prime minister will tell MPs the deal agreed on Friday is a \"choice between a broken status quo or change\"."
+      "url": "https://www.bbc.co.uk/news/articles/cm3eg502nxw2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-23T21:24:47+00:00",
+      "summary": "The publisher of an essay on coercive control apologises for \"an unfortunate and inappropriate communication\"."
+    },
+    {
+      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-23T21:23:42+00:00",
+      "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%."
+    },
+    {
+      "title": "Terres rares : Emmanuel Macron annonce que la France va se doter de \"stocks stratégiques\"",
+      "source": "France 24",
+      "url": "https://www.france24.com/fr/france/20261123-terres-rares-macron-annonce-france-doter-stocks-strat%C3%A9giques",
+      "published_at": "2026-11-23T21:06:36+00:00",
+      "summary": "Emmanuel Macron a annoncé un projet pour pourvoir la France de \"stocks stratégiques\" de minerais critiques, a déclaré l'Élysée lundi. Le programme inspiré des réserves stratégiques de pétrole aura pour but de sécuriser l'approvisionnement en terres rares et en \"certains métaux prioritaires\" et de réduire la dépendance vis-à-vis de la Chine."
+    },
+    {
+      "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-23T21:03:34+00:00",
+      "summary": "The UK is joined by several other nations in recognising an ICJ ruling that Myanmar carried out genocide."
     }
   ],
   "quiz": [
