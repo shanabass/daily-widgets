@@ -111,67 +111,67 @@
   ],
   "quiz": [
     {
-      "question": "When Halo 3: ODST was unveiled in 2008, it had a different title. What was the game formally called?",
+      "question": "In computing, what does LAN stand for?",
       "options": [
-        "Halo 3: Guerilla",
-        "Halo 3: Recon",
-        "Halo 3: Phantom",
-        "Halo 3: Helljumpers"
+        "Land Address Navigation",
+        "Local Area Network",
+        "Long Antenna Node",
+        "Light Access Node"
       ],
-      "answer": "Halo 3: Recon",
+      "answer": "Local Area Network",
+      "category": "Science: Computers",
+      "explanation": "Correct answer: Local Area Network"
+    },
+    {
+      "question": "What is \"Stenoma\"?",
+      "options": [
+        "A combat stimulant from WW2",
+        "A genus of moths",
+        "A type of seasoning",
+        "A port city in the carribean"
+      ],
+      "answer": "A genus of moths",
+      "category": "Science & Nature",
+      "explanation": "Correct answer: A genus of moths"
+    },
+    {
+      "question": "Which of these companies does NOT manufacture motorcycles?",
+      "options": [
+        "Kawasaki",
+        "Honda",
+        "Toyota",
+        "Yamaha"
+      ],
+      "answer": "Toyota",
+      "category": "Vehicles",
+      "explanation": "Correct answer: Toyota"
+    },
+    {
+      "question": "Who was the first explorer to sail to North America?",
+      "options": [
+        "Leif Erikson",
+        "Christopher Columbus",
+        "Ferdinand Magellan",
+        "Amerigo Vespucci"
+      ],
+      "answer": "Leif Erikson",
+      "category": "History",
+      "explanation": "Correct answer: Leif Erikson"
+    },
+    {
+      "question": "In the ARPG \"Path of Exile,\" what is the highest amount of sockets that an item can have?",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "5"
+      ],
+      "answer": "6",
       "category": "Entertainment: Video Games",
-      "explanation": "Correct answer: Halo 3: Recon"
-    },
-    {
-      "question": "Which song on Daft Punk's \"Random Access Memories\" features Pharrell Williams?",
-      "options": [
-        "Get Lucky",
-        "The Game of Love",
-        "Instant Crush",
-        "Doin' It Right"
-      ],
-      "answer": "Get Lucky",
-      "category": "Entertainment: Music",
-      "explanation": "Correct answer: Get Lucky"
-    },
-    {
-      "question": "In the \"Dragon Ball\" franchise, what is the name of Goku's brother?",
-      "options": [
-        "Bardock",
-        "Vegeta",
-        "Gohan",
-        "Raditz"
-      ],
-      "answer": "Raditz",
-      "category": "Entertainment: Japanese Anime & Manga",
-      "explanation": "Correct answer: Raditz"
-    },
-    {
-      "question": "Which of these was an official candidate in the 2017 British General Election?",
-      "options": [
-        "Sir Crumpetsby",
-        "James Francis",
-        "Robert Wimbledon",
-        "Lord Buckethead"
-      ],
-      "answer": "Lord Buckethead",
-      "category": "Politics",
-      "explanation": "Correct answer: Lord Buckethead"
-    },
-    {
-      "question": "Who wrote and directed the 1986 film 'Platoon'?",
-      "options": [
-        "Oliver Stone",
-        "Stanley Kubrick",
-        "Francis Ford Coppola",
-        "Michael Cimino"
-      ],
-      "answer": "Oliver Stone",
-      "category": "Entertainment: Film",
-      "explanation": "Correct answer: Oliver Stone"
+      "explanation": "Correct answer: 6"
     }
   ],
-  "quiz_updated_at": "2026-11-23T05:30:57.748727+00:00",
+  "quiz_updated_at": "2026-11-24T05:21:48.570792+00:00",
   "debrief": "",
   "concept": {
     "title": "",
