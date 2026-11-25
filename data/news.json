@@ -1,112 +1,112 @@
 {
   "title": "The Morning Brief",
   "status": "rss_ready",
-  "updated_at": "2026-11-24T05:11:59.350818+00:00",
+  "updated_at": "2026-11-25T05:14:06.188172+00:00",
   "headlines": [
     {
-      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+      "title": "Kilmar Ábrego García leaving US for Spain, ending Trump deportation battle",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-24T04:36:31+00:00",
-      "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value."
+      "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T04:49:55+00:00",
+      "summary": "His deportation to El Salvador and return to the US became a flash point in the debate over President Donald Trump's immigration agenda."
     },
     {
-      "title": "En direct : Tripoli veut des explications après les attaques contre des navires russes à Benghazi",
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T03:44:07+00:00",
+      "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement."
+    },
+    {
+      "title": "Au Yémen, l'Arabie saoudite attaque Hodeïda, les Houthis menacent de représailles",
       "source": "France 24",
-      "url": "https://www.france24.com/fr/europe/20261124-en-direct-ukraine-russie-libye-attaques-benghazi-zelensky-poutine",
-      "published_at": "2026-11-24T04:00:56+00:00",
-      "summary": "Le gouvernement libyen d'union nationale, basé à Tripoli, a réclamé lundi des explications à Kiev après des attaques contre des navires russes près de Benghazi, tandis que l'exécutif rival de l'Est a demandé une enquête internationale sur une présumée présence militaire ukrainienne en Libye. Suivez notre direct."
+      "url": "https://www.france24.com/fr/moyen-orient/20261125-yemen-arabie-saoudite-attaque-hodeida-houthis-menacent-represailles",
+      "published_at": "2026-11-25T03:22:42+00:00",
+      "summary": "La coalition militaire dirigée par l'Arabie saoudite a confirmé mercredi avoir \"visé des capacités opérationnelles dans le port de Hodeïda\", au Yémen. Les Houthis menacent de représailles contre \"le port de Jeddah et tous les autres ports ennemis sur la mer Rouge\"."
     },
     {
-      "title": "Au Yémen, les Houthis déplorent 25 morts ou disparus dans des frappes saoudiennes",
+      "title": "Ukraine en direct : deux militaires libyens tués dans les attaques de navires russes à Benghazi",
       "source": "France 24",
-      "url": "https://www.france24.com/fr/moyen-orient/20261124-yemen-houthis-deplorent-25-morts-disparus-frappes-saoudiennes",
-      "published_at": "2026-11-24T03:30:10+00:00",
-      "summary": "Une agence de presse houthie fait état mardi de 25 morts ou disparus après des frappes aériennes de l'Arabie saoudite contre des autocars et des camions dans le sud du Yémen. Cette attaque fait suite à des bombardements dans la province côtière voisine de Hodeïda, contrôlée par les Houthis, qui ont fait au moins 17 morts."
+      "url": "https://www.france24.com/fr/europe/20261125-en-direct-ukraine-russie-libye-benghazi-union-europeenne-zelensky-poutine",
+      "published_at": "2026-11-25T03:02:35+00:00",
+      "summary": "Deux militaires libyens ont succombé à leurs blessures à la suite des attaques contre des navires russes à Benghazi en Libye le 22 novembre, revendiquées par l'Ukraine, ont annoncé dans la nuit de mardi à mercredi les autorités de l'Est libyen. Suivez notre direct."
     },
     {
-      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-24T02:15:59+00:00",
-      "summary": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks."
+      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T02:59:27+00:00",
+      "summary": "The verdict follows a months-long trial in New York."
     },
     {
-      "title": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
+      "title": "Thomas Markle indicted in US for possessing child sex abuse images",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-24T00:23:25+00:00",
-      "summary": "The promoter and broadcaster helped define the music tastes of Australians for decades."
+      "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T01:40:42+00:00",
+      "summary": "The FBI arrested Markle on 6 November after a search of a storage unit he had allegedly rented in Los Angeles uncovered the abuse material."
     },
     {
-      "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
+      "title": "With Huang rescue, Trump riskily ties his political fortunes to Nvidia",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-24T00:01:04+00:00",
-      "summary": "Busy mothers on both sides of the Atlantic are paying companies to handle their to-do lists."
+      "url": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T01:03:05+00:00",
+      "summary": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates."
     },
     {
-      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+      "title": "The rising cost of putting food on the table in India",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T23:16:08+00:00",
-      "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public."
+      "url": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T01:02:13+00:00",
+      "summary": "India's food inflation is broadening, squeezing household budgets."
     },
     {
-      "title": "Megaspeed, société singapourienne au cœur du scandale Nvidia, placée sur liste noire américaine",
-      "source": "France 24",
-      "url": "https://www.france24.com/fr/%C3%A9co-tech/20261123-megaspeed-societe-singapour-scandale-nvidia-placee-liste-noire-etats-unis-chine",
-      "published_at": "2026-11-23T22:56:06+00:00",
-      "summary": "Le ministère du Commerce américain a décidé lundi de placer sur liste noire la société singapourienne Megaspeed et ses filiales, suspectées d'avoir contourné l'embargo des États-Unis en fournissant des puces Nvidia à la Chine."
-    },
-    {
-      "title": "Le chef de l'ONU espère voir d'ici un an un mécanisme pour limiter les risques posés par l'IA",
-      "source": "France 24",
-      "url": "https://www.france24.com/fr/%C3%A9co-tech/20261123-intelligence-artificielle-chef-onu-guterres-espere-voir-d-ici-un-an-mecanisme-pour-limiter-risques-ia",
-      "published_at": "2026-11-23T22:42:46+00:00",
-      "summary": "Antonio Guterres a appelé lundi les États membres des Nations unies à élaborer, \"d'ici l'année prochaine, un cadre multilatéral de gestion des risques liés à l'IA\". Pour le chef de l'ONU, la première étape pourrait être de convenir de mesures de sécurité communes, d'un système d'évaluation et d'exigences minimales en matière de contrôle indépendant"
-    },
-    {
-      "title": "Génocide des Rohingya en Birmanie : 14 pays reconnaissent la décision de la CIJ",
-      "source": "France 24",
-      "url": "https://www.france24.com/fr/asie-pacifique/20261123-birmanie-genocide-rohingya-14-pays-reconnaissent-decision-cij",
-      "published_at": "2026-11-23T22:31:48+00:00",
-      "summary": "Le Royaume-Uni, l'Espagne, le Canada, l'Australie et dix autres pays ont affirmé lundi reconnaître la décision de la Cour internationale de justice, qui a reconnu la semaine dernière le génocide commis par la Birmanie contre les Rohingya. Ils exhortent la Birmanie à se \"conformer pleinement à ses obligations en vertu du droit international, y compr"
-    },
-    {
-      "title": "RD Congo : une messe interdite, tensions entre l'Eglise et les autorités",
-      "source": "France 24",
-      "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261123-rd-congo-une-messe-interdite-tensions-entre-l-eglise-et-les-autorit%C3%A9s",
-      "published_at": "2026-11-23T21:44:25+00:00",
-      "summary": "L'Eglise catholique est-elle dans le viseur des autorités congolaises ? Ces derniers jours elles ont empêché deux évènements : une marche à Lubumbashi et une messe à Kinshasa. Dans le même temps en République démocratique du Congo, on attend toujours la nomination du comité d'organisation du dialogue national. Les précisions de notre correspondante"
-    },
-    {
-      "title": "Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book",
+      "title": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cm3eg502nxw2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T21:24:47+00:00",
-      "summary": "The publisher of an essay on coercive control apologises for \"an unfortunate and inappropriate communication\"."
+      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T00:56:51+00:00",
+      "summary": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia."
     },
     {
-      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+      "title": "US preparing to unveil plan for new tariffs on global trading partners",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T21:23:42+00:00",
-      "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%."
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T00:38:01+00:00",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU."
     },
     {
-      "title": "Terres rares : Emmanuel Macron annonce que la France va se doter de \"stocks stratégiques\"",
+      "title": "Why tiny cars are taking off across Europe",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T00:34:05+00:00",
+      "summary": "Once seen as a car for elderly, rural people, tiny cars are being embraced by a younger demographic."
+    },
+    {
+      "title": "What will the energy cap changes mean for my bills?",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T00:33:25+00:00",
+      "summary": "Regulator Ofgem is raising the cap affecting the energy bills of millions of households."
+    },
+    {
+      "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T00:30:52+00:00",
+      "summary": "The BBC speaks to three people about steps they take to keep their energy bills under control."
+    },
+    {
+      "title": "Households braced for soaring energy bills with new price cap to be announced",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T00:29:58+00:00",
+      "summary": "Domestic gas prices will rise significantly in January under regulator Ofgem's new price cap."
+    },
+    {
+      "title": "1 femme est tuée par un proche toutes les 11 minutes",
       "source": "France 24",
-      "url": "https://www.france24.com/fr/france/20261123-terres-rares-macron-annonce-france-doter-stocks-strat%C3%A9giques",
-      "published_at": "2026-11-23T21:06:36+00:00",
-      "summary": "Emmanuel Macron a annoncé un projet pour pourvoir la France de \"stocks stratégiques\" de minerais critiques, a déclaré l'Élysée lundi. Le programme inspiré des réserves stratégiques de pétrole aura pour but de sécuriser l'approvisionnement en terres rares et en \"certains métaux prioritaires\" et de réduire la dépendance vis-à-vis de la Chine."
-    },
-    {
-      "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-23T21:03:34+00:00",
-      "summary": "The UK is joined by several other nations in recognising an ICJ ruling that Myanmar carried out genocide."
+      "url": "https://www.france24.com/fr/%C3%A9missions/les-cl%C3%A9s-de-l-info/20261124-1-femme-est-tu%C3%A9e-par-un-proche-toutes-les-11-minutes",
+      "published_at": "2026-11-24T23:31:50+00:00",
+      "summary": "Ce mercredi marque la journée internationale pour l’élimination de la violence à l’égard des femmes. Malgré des progrès importants au cours des 30 dernières années, les stéréotypes restent profondément ancrés. Dans certains pays, les lois reculent et souvent les ressources sont insuffisantes pour venir en aide aux filles et aux femmes. Ces violence"
     }
   ],
   "quiz": [
