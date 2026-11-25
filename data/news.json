@@ -111,67 +111,67 @@
   ],
   "quiz": [
     {
-      "question": "In computing, what does LAN stand for?",
+      "question": "How many women joined the United States Armed Services during World War II?",
       "options": [
-        "Land Address Navigation",
-        "Local Area Network",
-        "Long Antenna Node",
-        "Light Access Node"
+        "350,000",
+        "500,000",
+        "100,000",
+        "225,000"
       ],
-      "answer": "Local Area Network",
-      "category": "Science: Computers",
-      "explanation": "Correct answer: Local Area Network"
-    },
-    {
-      "question": "What is \"Stenoma\"?",
-      "options": [
-        "A combat stimulant from WW2",
-        "A genus of moths",
-        "A type of seasoning",
-        "A port city in the carribean"
-      ],
-      "answer": "A genus of moths",
-      "category": "Science & Nature",
-      "explanation": "Correct answer: A genus of moths"
-    },
-    {
-      "question": "Which of these companies does NOT manufacture motorcycles?",
-      "options": [
-        "Kawasaki",
-        "Honda",
-        "Toyota",
-        "Yamaha"
-      ],
-      "answer": "Toyota",
-      "category": "Vehicles",
-      "explanation": "Correct answer: Toyota"
-    },
-    {
-      "question": "Who was the first explorer to sail to North America?",
-      "options": [
-        "Leif Erikson",
-        "Christopher Columbus",
-        "Ferdinand Magellan",
-        "Amerigo Vespucci"
-      ],
-      "answer": "Leif Erikson",
+      "answer": "350,000",
       "category": "History",
-      "explanation": "Correct answer: Leif Erikson"
+      "explanation": "Correct answer: 350,000"
     },
     {
-      "question": "In the ARPG \"Path of Exile,\" what is the highest amount of sockets that an item can have?",
+      "question": "Who is the main character in One Piece?",
       "options": [
-        "8",
-        "6",
-        "4",
-        "5"
+        "Luffy",
+        "Smoker",
+        "Shanks",
+        "Zoro"
       ],
-      "answer": "6",
-      "category": "Entertainment: Video Games",
-      "explanation": "Correct answer: 6"
+      "answer": "Luffy",
+      "category": "Entertainment: Japanese Anime & Manga",
+      "explanation": "Correct answer: Luffy"
+    },
+    {
+      "question": "When Gmail first launched, how much storage did it provide for your email?",
+      "options": [
+        "512MB",
+        "Unlimited",
+        "5GB",
+        "1GB"
+      ],
+      "answer": "1GB",
+      "category": "Science: Computers",
+      "explanation": "Correct answer: 1GB"
+    },
+    {
+      "question": "What was the name of the hip hop group Kanye West was a member of in the late 90s?",
+      "options": [
+        "The Go-Getters",
+        "The Jumpers",
+        "The Beat-Busters",
+        "The Kickstarters"
+      ],
+      "answer": "The Go-Getters",
+      "category": "Entertainment: Music",
+      "explanation": "Correct answer: The Go-Getters"
+    },
+    {
+      "question": "Who portrayed Han Solo in the Star Wars main film series?",
+      "options": [
+        "Mark Hamill",
+        "Alec Guinness",
+        "Harrison Ford",
+        "Peter Cushing"
+      ],
+      "answer": "Harrison Ford",
+      "category": "Entertainment: Film",
+      "explanation": "Correct answer: Harrison Ford"
     }
   ],
-  "quiz_updated_at": "2026-11-24T05:21:48.570792+00:00",
+  "quiz_updated_at": "2026-11-25T05:22:58.205814+00:00",
   "debrief": "",
   "concept": {
     "title": "",
