@@ -111,67 +111,67 @@
   ],
   "quiz": [
     {
-      "question": "How many women joined the United States Armed Services during World War II?",
+      "question": "Who won Big Brother 2014 UK?",
       "options": [
-        "350,000",
-        "500,000",
-        "100,000",
-        "225,000"
+        "Pavandeep \"Pav\" Paul",
+        "Christopher Hall",
+        "Helen Wood",
+        "Pauline Bennett"
       ],
-      "answer": "350,000",
-      "category": "History",
-      "explanation": "Correct answer: 350,000"
+      "answer": "Helen Wood",
+      "category": "Entertainment: Television",
+      "explanation": "Correct answer: Helen Wood"
     },
     {
-      "question": "Who is the main character in One Piece?",
+      "question": "Which Shakespeare play features the stage direction \"Enter a messenger, with two heads and a hand\"?",
       "options": [
-        "Luffy",
-        "Smoker",
-        "Shanks",
-        "Zoro"
+        "Othello",
+        "King Lear",
+        "Titus Andronicus",
+        "Macbeth"
       ],
-      "answer": "Luffy",
-      "category": "Entertainment: Japanese Anime & Manga",
-      "explanation": "Correct answer: Luffy"
+      "answer": "Titus Andronicus",
+      "category": "Entertainment: Musicals & Theatres",
+      "explanation": "Correct answer: Titus Andronicus"
     },
     {
-      "question": "When Gmail first launched, how much storage did it provide for your email?",
+      "question": "A Caixa Malacacheta is what kind of musical instrument which is commonly used in Latin American music?",
       "options": [
-        "512MB",
-        "Unlimited",
-        "5GB",
-        "1GB"
+        "Maraca",
+        "Bass Drum",
+        "Cow Bell",
+        "Snare Drum"
       ],
-      "answer": "1GB",
-      "category": "Science: Computers",
-      "explanation": "Correct answer: 1GB"
-    },
-    {
-      "question": "What was the name of the hip hop group Kanye West was a member of in the late 90s?",
-      "options": [
-        "The Go-Getters",
-        "The Jumpers",
-        "The Beat-Busters",
-        "The Kickstarters"
-      ],
-      "answer": "The Go-Getters",
+      "answer": "Snare Drum",
       "category": "Entertainment: Music",
-      "explanation": "Correct answer: The Go-Getters"
+      "explanation": "Correct answer: Snare Drum"
     },
     {
-      "question": "Who portrayed Han Solo in the Star Wars main film series?",
+      "question": "When was WhatsApp founded?",
       "options": [
-        "Mark Hamill",
-        "Alec Guinness",
-        "Harrison Ford",
-        "Peter Cushing"
+        "2012",
+        "2010",
+        "2009",
+        "2007"
       ],
-      "answer": "Harrison Ford",
-      "category": "Entertainment: Film",
-      "explanation": "Correct answer: Harrison Ford"
+      "answer": "2009",
+      "category": "General Knowledge",
+      "explanation": "Correct answer: 2009"
+    },
+    {
+      "question": "Who is the youngest person to receive a Nobel Prize?",
+      "options": [
+        "Werner Heisenberg",
+        "Malala Yousafzai",
+        "Yasser Arafat",
+        "Lawrence Bragg"
+      ],
+      "answer": "Malala Yousafzai",
+      "category": "General Knowledge",
+      "explanation": "Correct answer: Malala Yousafzai"
     }
   ],
-  "quiz_updated_at": "2026-11-25T05:22:58.205814+00:00",
+  "quiz_updated_at": "2026-11-26T05:25:18.279021+00:00",
   "debrief": "",
   "concept": {
     "title": "",
