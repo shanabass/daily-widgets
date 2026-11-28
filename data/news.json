@@ -111,67 +111,67 @@
   ],
   "quiz": [
     {
-      "question": "Who won Big Brother 2014 UK?",
+      "question": "\"Gimmick!\" is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?",
       "options": [
-        "Pavandeep \"Pav\" Paul",
-        "Christopher Hall",
-        "Helen Wood",
-        "Pauline Bennett"
+        "VRC6",
+        "VRC7",
+        "MMC5",
+        "FME-7"
       ],
-      "answer": "Helen Wood",
-      "category": "Entertainment: Television",
-      "explanation": "Correct answer: Helen Wood"
+      "answer": "FME-7",
+      "category": "Entertainment: Video Games",
+      "explanation": "Correct answer: FME-7"
     },
     {
-      "question": "Which Shakespeare play features the stage direction \"Enter a messenger, with two heads and a hand\"?",
+      "question": "Which of these car models are produced by Lamborghini?",
       "options": [
-        "Othello",
-        "King Lear",
-        "Titus Andronicus",
-        "Macbeth"
+        "Aventador",
+        "918",
+        "Chiron",
+        "Huayra"
       ],
-      "answer": "Titus Andronicus",
-      "category": "Entertainment: Musicals & Theatres",
-      "explanation": "Correct answer: Titus Andronicus"
+      "answer": "Aventador",
+      "category": "Vehicles",
+      "explanation": "Correct answer: Aventador"
     },
     {
-      "question": "A Caixa Malacacheta is what kind of musical instrument which is commonly used in Latin American music?",
+      "question": "Which famous military commander marched an army, which included war elephants, over the Alps during the Second Punic War?",
       "options": [
-        "Maraca",
-        "Bass Drum",
-        "Cow Bell",
-        "Snare Drum"
+        "Hannibal",
+        "Tiberius",
+        "Alexander the Great",
+        "Garmanicus"
       ],
-      "answer": "Snare Drum",
-      "category": "Entertainment: Music",
-      "explanation": "Correct answer: Snare Drum"
+      "answer": "Hannibal",
+      "category": "History",
+      "explanation": "Correct answer: Hannibal"
     },
     {
-      "question": "When was WhatsApp founded?",
+      "question": "What is \"Stenoma\"?",
       "options": [
-        "2012",
-        "2010",
-        "2009",
-        "2007"
+        "A type of seasoning",
+        "A port city in the carribean",
+        "A combat stimulant from WW2",
+        "A genus of moths"
       ],
-      "answer": "2009",
+      "answer": "A genus of moths",
+      "category": "Science & Nature",
+      "explanation": "Correct answer: A genus of moths"
+    },
+    {
+      "question": "What zodiac sign is represented by a pair of scales?",
+      "options": [
+        "Aries",
+        "Capricorn",
+        "Sagittarius",
+        "Libra"
+      ],
+      "answer": "Libra",
       "category": "General Knowledge",
-      "explanation": "Correct answer: 2009"
-    },
-    {
-      "question": "Who is the youngest person to receive a Nobel Prize?",
-      "options": [
-        "Werner Heisenberg",
-        "Malala Yousafzai",
-        "Yasser Arafat",
-        "Lawrence Bragg"
-      ],
-      "answer": "Malala Yousafzai",
-      "category": "General Knowledge",
-      "explanation": "Correct answer: Malala Yousafzai"
+      "explanation": "Correct answer: Libra"
     }
   ],
-  "quiz_updated_at": "2026-11-26T05:25:18.279021+00:00",
+  "quiz_updated_at": "2026-11-28T05:16:41.902244+00:00",
   "debrief": "",
   "concept": {
     "title": "",
